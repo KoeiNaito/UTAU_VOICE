@@ -3,9 +3,46 @@
 UTAU_VOICEはUTAUのキャラクターを棒読みでも良いので喋らせたいという、
 作者の願望によって制作されたオタク用プログラムである。
 
+![スクリーンショット (218)](https://user-images.githubusercontent.com/80163026/155362394-0447f167-cd8c-4ebf-a040-fd3e6603d7b2.png)
+
+# Installation
+Download ZIPよりUTAU_VOICE.zipをダウンロードし、適当な場所に解凍する。
+
+UtauVoice.javaをコンパイルしてUTAU_VOICEのウィンドウを表示する。
+
+# 使い方の詳細
+
+1.テキストエリアに歌詞を入力する
+
+(Uでひとつ前の歌詞を2音上げる, Dでひとつ前の歌詞を2音下げる)
+
+例. こDんにちわU
+
+2.ProjectTitleに任意のタイトルを入力する
+
+3.Speed(bpm)に任意の速度を入力(現在は200以外対応できていない)
+
+4.Lengthに任意の音の長さを入力(現在は180以外対応できていない)
+
+5.NoteNameでC~B(ドレミの英語ver)を上下ボタンで選択
+
+6.Octaveでオクターブ数を選択する(標準は5になっているので、"1"で"5+1"オクターブ、"-1"で"5-1"オクターブ)
+
+7.キャラクターコンボボックスでお好きなキャラクターを選択💕
+
+8.Run!!で再生
+
+9.ustファイルを保存するか聞かれるので、原則"はい"を選択する
+
+## Openを使う場合
+
+OpenをClickすると前回再生したプロジェクト名を入力するだけで前回のプロジェクトの歌詞を復元してくれるため、
+
+前保存した歌詞をもう一度利用したい場合はこちらを利用する。
+
 # キャラクター紹介
 
-**僕が好きな**5種類のキャラをセッティングした。
+今回は**僕が好きな**5種類のキャラをセッティングした。
 
 - 重音テト
 
@@ -47,52 +84,25 @@ UTAU_VOICEはUTAUのキャラクターを棒読みでも良いので喋らせた
 カーソルを表示された画像に合わせると、
 一言口癖が表示される。
 
-# Features
+# 通達事項
+現在まだ開発中につき、完成していないため、
 
-"hoge"のセールスポイントや差別化などを説明する
+バグなどがありましたら、報告していただけると助かります。
 
-# Requirement
-
-"hoge"を動かすのに必要なライブラリなどを列挙する
-
-* huga 3.5.2
-* hogehuga 1.0.2
-
-# Installation
-
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
-```bash
-pip install huga_package
-```
-
-# Usage
-
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
-
-# Note
-
-注意点などがあれば書く
+# 将来
+以下の点を修正&改善予定です
+- 速度と長さをresampler.exeに反映できるようにする
+- 途中で再生を停止できるようにする
+- UtauVoice.exeとしてWindows Application化を図る
 
 # Author
 
-作成情報を列挙する
+作者情報
 
-* 作成者
-* 所属
-* E-mail
+* 小さなウイルスマニア
+* AICJ中学校
+* Twitter : @virus_mania
+* Mail : virusgood7523184@gmail.com
 
 # License
-ライセンスを明示する
-
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-社内向けなら社外秘であることを明示してる
-
-"hoge" is Confidential.
+[MIT license](https://en.wikipedia.org/wiki/MIT_License).
